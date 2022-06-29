@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Inspiration&family=Inter:wght@400;500&family=Lexend+Deca&family=Poppins:wght@100;700&family=Sofia&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Lexend+Deca:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Lexend+Deca+1&display=swap');
+
+ * {
+ 	margin: 0;
+ 	padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+ }
+ body {
+ 	background-color: #ecf0f1;
+ }
+ header {
+ 	width: 100%;
+ 	height: 250px;
+ 	background-color: #574AE8;
+    background-image: linear-gradient( to right, #574AE8, transparent, #3EA1DB);
+ }
+ header .container {
+    width: 100%;
+    max-width: 900px;
+    height: 250px;
+    margin: 0 auto;
+    font-family: 'Lexend Deca', sans-serif;
+    color: #FFFFFF;
+    font-size: 24px;
+    padding: 0 20px;
+ }
+ header ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 41px;
+    float: left;
+ }
+ /* Esse comando CSS irá remover a borda da caixa de texto mas pode ser usado em qualquer outro 
+ tipo de campo que aparece essa borda como o select. */
+
+ input[type=text]{
+    outline: none;
+ }
+
+ header .pesquisa {
+    width: 100%;
+    max-width: 900px;
+    height: 65px;
+    background: rgba(255, 255, 255, 0.2);
+    opacity: 0.9;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    float: left;
+    margin-top: 73px;
+ }
+ header input {
+    width: 100%;
+    max-width: 900px;
+    padding-left: 20px;
+    background: transparent;
+    border: none;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+header .lupa {
+    width: 25px;
+    height: 23px;
+    position: relative;
+    float: left;
+    background-image: url(../img/lupa.png);
+    cursor: pointer;
+    margin-left: 20px;
+    margin-top: 21px;
+}
+main {
+    width: 100%;
+    max-width: 900px;
+    min-height: 500px;
+    margin: 0 auto;
+}
+main .container {
+    width: auto;
+    max-width: 900px;
+    margin-top: 100px;
+    padding: 0 15px;
+}
+main .container-row {
+    width: auto;
+    max-width: 900px;
+    min-height: 195px;
+    background-color: #FFFFFF;
+    margin-bottom: 50px;
+    border-radius: 5px;
+
+}
+main .data-like {
+    width: 100%;
+    max-width: 900px;
+    float: left;
+    display: flex;
+    margin-top: 23px;
+    justify-content: space-between;
+    margin-bottom: 22px;
+}
+main li {
+   padding-left: 19px;
+   padding-right: 19px;
+   font-family: 'Lexend Deca', sans-serif;
+   font-size: 13px;
+   color: #717171;
+}
+main .like {
+    width: 23px;
+    height: 19px;
+    background-image: url(../img/like.png);
+    cursor: pointer;
+}
+main h2 {
+    margin-left: 25px;
+    margin-top: 15px;
+    font-family: 'Lexend Deca', sans-serif;
+    color: #1A202C;
+    font-size: 25px;
+}
+main p {
+    max-width: 850px;
+    margin-left: 25px;
+    margin-top: 15px;
+    padding-bottom: 25px;
+    padding-right: 20px;
+    font-family: 'Lexend Deca 1', sans-serif;
+    color: #717171;
+    font-size: 16px;
+}
+footer {
+    width: 100%;
+    height: 50px;
+    background-color: #574AE8;
+    background-image: linear-gradient( to right, #574AE8, transparent, #3EA1DB);
+    display: table;
+}
+footer p {
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+    font-family: 'Lexend Deca', sans-serif;
+    color: white;
+    font-size: 16px;
+}
